@@ -1,0 +1,111 @@
+# Next.js specific files and directories
+.next/
+out/
+build/
+static/
+next-env.d.ts  # If you have it
+.DS_Store # macOS Finder
+
+# Dependencies
+node_modules/
+package-lock.json # or yarn.lock if you use Yarn
+pnpm-lock.yaml  # If you use pnpm
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.vscode/ # If you want to exclude VS Code settings
+.idea/ # If you use IntelliJ IDEA
+
+# Testing
+coverage/
+.nyc_output/
+
+# Optional: If you use a specific package manager's cache
+.npmrc # If you want to ignore npm config
+.yarnrc # If you want to ignore yarn config
+.pnpm-store/ # If you use pnpm
+
+# Optional: If you use a cloud function deployment
+functions/.env
+functions/node_modules/
+
+# Optional: If you use Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Optional: If you use a CI/CD pipeline
+.gitlab-ci.yml
+.travis.yml
+circle.yml
+azure-pipelines.yml
+github-actions/
+
+# Optional: If you use serverless functions
+serverless.yml
+
+# Optional: If you use a monorepo
+/packages/*/node_modules
+
+# Optional: If you use a documentation generator
+docs/
+*.md # If you want to ignore all markdown files (be careful with this!)
+
+# Optional: Sensitive information (never commit these!)
+config.js # Or any file containing API keys, secrets, etc.
+.htpasswd
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*service-account*.json
+*credentials*.json
+*config*.json
+
+# Optional: OS-specific files
+Thumbs.db
+.cache
+
+# Optional: Editor and IDE files (customize as needed)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.sln
+*.user
+*.bak
+*~
+# ... other editor/IDE specific files
+
+# Optional: Files that are likely generated or downloaded
+*.lock
+*.gz
+*.zip
+*.tar
+*.rar
+
+# Optional:  If you have a public folder and want to exclude specific files
+public/uploads/* # Example: exclude uploads folder
+!public/favicon.ico # Example: keep favicon
+!public/sitemap.xml # Example: keep sitemap
+
+# Optional: If you use storybook
+.storybook/
+
+# Optional: If using playwright
+playwright-report/
+
+# clerk configuration (can include secrets)
+/.clerk/
