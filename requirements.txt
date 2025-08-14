@@ -1,0 +1,15 @@
+fastapi
+python-multipart
+uvicorn
+pydantic
+python-dotenv
+torch
+torchaudio
+numpy
+google-cloud-storage
+google-cloud-tasks
+pydub
+librosa==0.10.2.post1
+google-generativeai
+deepgram-sdk
+uvicorn
