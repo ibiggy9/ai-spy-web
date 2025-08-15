@@ -35,7 +35,6 @@ github-actions/
 serverless.yml
 /packages/*/node_modules
 docs/
-*.md
 config.js
 .htpasswd
 *.pem
